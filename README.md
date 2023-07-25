@@ -32,3 +32,33 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+## Front end start
+global css: remove previous things add this
+html,
+body,
+:root {
+  height: 100%;
+}
+
+## create a folder name (routes) then create a page name page.tsx in routes folder
+
+write page basic structure
+
+# Now add font on layout
+
+## Now add footer component on layout
+## Create a folder name components outside the app
+## Now create a footer and navbar components in components folder
+## Now create a ui folder in components
+# Copy lib => utils data from admin app and craete folder name lib in outside of app then ceate - util.ts
+#  Command: npm i clsx tailwind-merge
+
+## create types.ts outside the app
+## create actions folder outside the app now create get-categories.tsx
+## create button.tsx in components => ui folder
+## command: npm i lucide-react
+## create actions folder outside the app now create get-billboard.tsx
+## create actions folder outside the app now create get-products.tsx
+#  Command: npm i query-string
